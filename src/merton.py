@@ -96,11 +96,11 @@ def calibrate_merton(F, T, strikes, market_vols, r=0.0, n_terms=50):
 
     # Grid search for initial guess
     best_obj = np.inf
-    best_x0  = [0.3, 1.0, -0.1, 0.1]
-    for s0 in [0.3]:
-        for l0 in [1.0]:
-            for m0 in [-0.1, 0.1]:
-                for d0 in [0.15]:
+    best_x0  = [0.3, 1.0, -0.1, 0.15]
+    for s0 in [0.2, 0.4, 0.7]:
+        for l0 in [0.5, 2.0, 5.0]:
+            for m0 in [-0.2, 0.0, 0.2]:
+                for d0 in [0.1, 0.25, 0.4]:
                     val = objective([s0, l0, m0, d0])
                     if val < best_obj:
                         best_obj = val
