@@ -1,6 +1,6 @@
 # Jump-SABR: Extending the SABR Option Pricing Model with Jumps
 
-**Master Thesis — University of St. Gallen (HSG)**  
+**Bachelor Thesis — University of St. Gallen (HSG)**  
 Pierre-Alexandre Crouzet | Supervisor: Prof. Enrico Giovanni De Giorgi | Spring Semester 2026
 
 ---
